@@ -21,10 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         
-        let viewController = CalculateMomentumViewController()
-        viewController.viewModel = CalculateMomentumViewModel(
-            model: CalculateMomentumModel(service: CalculateMomentumService())
-        )
+        let viewController = ViewController()
         window?.rootViewController = viewController
         
         window?.makeKeyAndVisible()

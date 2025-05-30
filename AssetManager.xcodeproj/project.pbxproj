@@ -9,27 +9,18 @@
 /* Begin PBXBuildFile section */
 		3826C4AC3E8AE23C46A9FB57 /* Pods_AssetManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CC71E8ADFB3E1D0905196A /* Pods_AssetManager.framework */; };
 		9B12332C2C7D8B3A00994B3E /* TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12332B2C7D8B3A00994B3E /* TableView+Extension.swift */; };
-		9B12332E2C7D903100994B3E /* CalculateMomentumTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12332D2C7D903100994B3E /* CalculateMomentumTitleCell.swift */; };
-		9B1233302C7D904600994B3E /* CalculateMomentumTitleCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12332F2C7D904600994B3E /* CalculateMomentumTitleCellViewModel.swift */; };
-		9B8A90E82C81B1F5005D059E /* CalculateMomentumTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8A90E72C81B1F5005D059E /* CalculateMomentumTitleCell.xib */; };
-		9B8A90EA2C81B7E8005D059E /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8A90E92C81B7E8005D059E /* TitleView.xib */; };
-		9B8A90EC2C81B7F6005D059E /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A90EB2C81B7F6005D059E /* TitleView.swift */; };
 		9B8A90EE2C81BA50005D059E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A90ED2C81BA50005D059E /* BaseView.swift */; };
-		9B8A90F02C81BD48005D059E /* CalculateMomentumSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A90EF2C81BD48005D059E /* CalculateMomentumSectionModel.swift */; };
 		9BADFF762C7C629D007C702C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADFF752C7C629D007C702C /* AppDelegate.swift */; };
 		9BADFF782C7C629D007C702C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADFF772C7C629D007C702C /* SceneDelegate.swift */; };
 		9BADFF7F2C7C629E007C702C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BADFF7E2C7C629E007C702C /* Assets.xcassets */; };
 		9BADFF822C7C629E007C702C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BADFF802C7C629E007C702C /* LaunchScreen.storyboard */; };
-		9BADFF8A2C7C6DCA007C702C /* CalculateMomentumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BADFF892C7C6DCA007C702C /* CalculateMomentumViewController.xib */; };
-		9BADFF8C2C7C6EEA007C702C /* CalculateMomentumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BADFF8B2C7C6EEA007C702C /* CalculateMomentumViewController.swift */; };
 		9BDC2DE12C7FF9710033088D /* AuthTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC2DE02C7FF9710033088D /* AuthTarget.swift */; };
 		9BDC2DE32C7FF9E80033088D /* AuthRequestParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC2DE22C7FF9E80033088D /* AuthRequestParameter.swift */; };
 		9BDC2DE52C7FFB8D0033088D /* APISetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC2DE42C7FFB8D0033088D /* APISetting.swift */; };
-		9BDC2DE72C800A6D0033088D /* CalculateMomentumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC2DE62C800A6D0033088D /* CalculateMomentumViewModel.swift */; };
-		9BDC2DE92C800A8E0033088D /* CalculateMomentumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC2DE82C800A8E0033088D /* CalculateMomentumModel.swift */; };
-		9BDC2DEB2C801F540033088D /* CalculateMomentumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC2DEA2C801F540033088D /* CalculateMomentumService.swift */; };
-		9BDC2DED2C80227F0033088D /* CalculateMomentumProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC2DEC2C80227F0033088D /* CalculateMomentumProvider.swift */; };
 		9BDC2DEF2C8061180033088D /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC2DEE2C8061180033088D /* AuthResponse.swift */; };
+		B40F4C3E2DE9E3EE002C275D /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F4C3D2DE9E3EE002C275D /* TokenManager.swift */; };
+		B4E978FE2DABF1F2000669F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E978FD2DABF1F2000669F9 /* ViewController.swift */; };
+		B4E979002DABF20D000669F9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E978FF2DABF20D000669F9 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,29 +28,20 @@
 		6BC62B1FE61D28A07B88DC11 /* Pods-AssetManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetManager.debug.xcconfig"; path = "Target Support Files/Pods-AssetManager/Pods-AssetManager.debug.xcconfig"; sourceTree = "<group>"; };
 		78CC71E8ADFB3E1D0905196A /* Pods_AssetManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssetManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B12332B2C7D8B3A00994B3E /* TableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extension.swift"; sourceTree = "<group>"; };
-		9B12332D2C7D903100994B3E /* CalculateMomentumTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateMomentumTitleCell.swift; sourceTree = "<group>"; };
-		9B12332F2C7D904600994B3E /* CalculateMomentumTitleCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateMomentumTitleCellViewModel.swift; sourceTree = "<group>"; };
-		9B8A90E72C81B1F5005D059E /* CalculateMomentumTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculateMomentumTitleCell.xib; sourceTree = "<group>"; };
-		9B8A90E92C81B7E8005D059E /* TitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleView.xib; sourceTree = "<group>"; };
-		9B8A90EB2C81B7F6005D059E /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		9B8A90ED2C81BA50005D059E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
-		9B8A90EF2C81BD48005D059E /* CalculateMomentumSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateMomentumSectionModel.swift; sourceTree = "<group>"; };
 		9BADFF722C7C629D007C702C /* AssetManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BADFF752C7C629D007C702C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BADFF772C7C629D007C702C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9BADFF7E2C7C629E007C702C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BADFF812C7C629E007C702C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BADFF832C7C629E007C702C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BADFF892C7C6DCA007C702C /* CalculateMomentumViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculateMomentumViewController.xib; sourceTree = "<group>"; };
-		9BADFF8B2C7C6EEA007C702C /* CalculateMomentumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateMomentumViewController.swift; sourceTree = "<group>"; };
 		9BDC2DE02C7FF9710033088D /* AuthTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTarget.swift; sourceTree = "<group>"; };
 		9BDC2DE22C7FF9E80033088D /* AuthRequestParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestParameter.swift; sourceTree = "<group>"; };
 		9BDC2DE42C7FFB8D0033088D /* APISetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISetting.swift; sourceTree = "<group>"; };
-		9BDC2DE62C800A6D0033088D /* CalculateMomentumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateMomentumViewModel.swift; sourceTree = "<group>"; };
-		9BDC2DE82C800A8E0033088D /* CalculateMomentumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateMomentumModel.swift; sourceTree = "<group>"; };
-		9BDC2DEA2C801F540033088D /* CalculateMomentumService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateMomentumService.swift; sourceTree = "<group>"; };
-		9BDC2DEC2C80227F0033088D /* CalculateMomentumProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateMomentumProvider.swift; sourceTree = "<group>"; };
 		9BDC2DEE2C8061180033088D /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		B40F4C3D2DE9E3EE002C275D /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		B4E978FD2DABF1F2000669F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4E978FF2DABF20D000669F9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,31 +77,12 @@
 			isa = PBXGroup;
 			children = (
 				9BDC2DDF2C7FF93D0033088D /* API */,
+				B4E978FF2DABF20D000669F9 /* NetworkManager.swift */,
+				B40F4C3D2DE9E3EE002C275D /* TokenManager.swift */,
 				9B12332B2C7D8B3A00994B3E /* TableView+Extension.swift */,
 				9B8A90ED2C81BA50005D059E /* BaseView.swift */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		9B8A90E62C81B122005D059E /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				9B8A90EF2C81BD48005D059E /* CalculateMomentumSectionModel.swift */,
-				9B8A90F12C81BEE3005D059E /* Title */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		9B8A90F12C81BEE3005D059E /* Title */ = {
-			isa = PBXGroup;
-			children = (
-				9B12332D2C7D903100994B3E /* CalculateMomentumTitleCell.swift */,
-				9B8A90E72C81B1F5005D059E /* CalculateMomentumTitleCell.xib */,
-				9B12332F2C7D904600994B3E /* CalculateMomentumTitleCellViewModel.swift */,
-				9B8A90E92C81B7E8005D059E /* TitleView.xib */,
-				9B8A90EB2C81B7F6005D059E /* TitleView.swift */,
-			);
-			path = Title;
 			sourceTree = "<group>";
 		};
 		9BADFF692C7C629D007C702C = {
@@ -143,37 +106,15 @@
 		9BADFF742C7C629D007C702C /* AssetManager */ = {
 			isa = PBXGroup;
 			children = (
+				B4E978FD2DABF1F2000669F9 /* ViewController.swift */,
 				9B12332A2C7D8B2600994B3E /* Common */,
 				9BADFF752C7C629D007C702C /* AppDelegate.swift */,
 				9BADFF772C7C629D007C702C /* SceneDelegate.swift */,
-				9BDC2DDD2C7FF8D30033088D /* CalculateMomentum */,
 				9BADFF7E2C7C629E007C702C /* Assets.xcassets */,
 				9BADFF802C7C629E007C702C /* LaunchScreen.storyboard */,
 				9BADFF832C7C629E007C702C /* Info.plist */,
 			);
 			path = AssetManager;
-			sourceTree = "<group>";
-		};
-		9BDC2DDD2C7FF8D30033088D /* CalculateMomentum */ = {
-			isa = PBXGroup;
-			children = (
-				9BDC2DDE2C7FF8E60033088D /* API */,
-				9BADFF892C7C6DCA007C702C /* CalculateMomentumViewController.xib */,
-				9BADFF8B2C7C6EEA007C702C /* CalculateMomentumViewController.swift */,
-				9BDC2DE62C800A6D0033088D /* CalculateMomentumViewModel.swift */,
-				9BDC2DE82C800A8E0033088D /* CalculateMomentumModel.swift */,
-				9BDC2DEC2C80227F0033088D /* CalculateMomentumProvider.swift */,
-				9BDC2DEA2C801F540033088D /* CalculateMomentumService.swift */,
-				9B8A90E62C81B122005D059E /* Cells */,
-			);
-			path = CalculateMomentum;
-			sourceTree = "<group>";
-		};
-		9BDC2DDE2C7FF8E60033088D /* API */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = API;
 			sourceTree = "<group>";
 		};
 		9BDC2DDF2C7FF93D0033088D /* API */ = {
@@ -248,9 +189,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BADFF822C7C629E007C702C /* LaunchScreen.storyboard in Resources */,
-				9B8A90E82C81B1F5005D059E /* CalculateMomentumTitleCell.xib in Resources */,
-				9BADFF8A2C7C6DCA007C702C /* CalculateMomentumViewController.xib in Resources */,
-				9B8A90EA2C81B7E8005D059E /* TitleView.xib in Resources */,
 				9BADFF7F2C7C629E007C702C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,22 +242,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B1233302C7D904600994B3E /* CalculateMomentumTitleCellViewModel.swift in Sources */,
-				9BDC2DEB2C801F540033088D /* CalculateMomentumService.swift in Sources */,
+				B4E979002DABF20D000669F9 /* NetworkManager.swift in Sources */,
 				9BDC2DE32C7FF9E80033088D /* AuthRequestParameter.swift in Sources */,
-				9BDC2DE92C800A8E0033088D /* CalculateMomentumModel.swift in Sources */,
 				9BDC2DEF2C8061180033088D /* AuthResponse.swift in Sources */,
-				9B8A90F02C81BD48005D059E /* CalculateMomentumSectionModel.swift in Sources */,
-				9BDC2DE72C800A6D0033088D /* CalculateMomentumViewModel.swift in Sources */,
-				9BDC2DED2C80227F0033088D /* CalculateMomentumProvider.swift in Sources */,
 				9BDC2DE52C7FFB8D0033088D /* APISetting.swift in Sources */,
-				9B12332E2C7D903100994B3E /* CalculateMomentumTitleCell.swift in Sources */,
 				9BADFF762C7C629D007C702C /* AppDelegate.swift in Sources */,
-				9BADFF8C2C7C6EEA007C702C /* CalculateMomentumViewController.swift in Sources */,
+				B4E978FE2DABF1F2000669F9 /* ViewController.swift in Sources */,
 				9BADFF782C7C629D007C702C /* SceneDelegate.swift in Sources */,
 				9B12332C2C7D8B3A00994B3E /* TableView+Extension.swift in Sources */,
 				9BDC2DE12C7FF9710033088D /* AuthTarget.swift in Sources */,
-				9B8A90EC2C81B7F6005D059E /* TitleView.swift in Sources */,
+				B40F4C3E2DE9E3EE002C275D /* TokenManager.swift in Sources */,
 				9B8A90EE2C81BA50005D059E /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
