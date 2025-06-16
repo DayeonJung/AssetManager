@@ -46,7 +46,7 @@ extension KoreaInvestmentAPI: TargetType {
                     "AUTH": "",
                     "EXCD": exchangeCode,
                     "SYMB": stockCode,
-                    "GUBN": "0",  // 0:일 1:주 2:월
+                    "GUBN": "1",  // 0:일 1:주 2:월
                     "BYMD": "",   // 시작일자 (YYYYMMDD)
                     "MODP": "0"   // 0:일반 1:수정주가
                 ],
@@ -116,7 +116,7 @@ class NetworkManager {
         }
     }
     
-    /// 해외주식 시세 조회 (자동 토큰 관리 포함)
+    /// 해외주식 시세 조회
     func getOverseasStockPrice(exchangeCode: String, stockCode: String) async throws -> [StockPriceOutput2]? {
         // API 호출 전 토큰 유효성 확인 및 갱신
         try await ensureValidToken()
